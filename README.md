@@ -1,31 +1,47 @@
-## 📌 Gerador de QR Code  
+# 🚀 Gerador de QR Code Personalizado  
 
-Este projeto gera um **QR Code personalizado** com um link específico e cores definidas, utilizando a biblioteca `qrcode` do Python.  
+Este é um simples gerador de QR Code desenvolvido em **Python**, utilizando a biblioteca `qrcode`. O objetivo principal do projeto é gerar QR Codes personalizados para diversas finalidades, como redirecionamento de links, compartilhamento de informações e automação de processos.  
 
-### 🚀 Funcionalidades  
-✅ Gera QR Codes personalizados com diferentes cores  
-✅ Define tamanho, borda e nível de correção de erro  
-✅ Salva a imagem gerada em formato JPG  
+## 📌 Funcionalidades  
+✔️ Gera QR Codes a partir de qualquer entrada de texto ou URL  
+✔️ Permite personalizar a versão, tamanho e nível de correção de erro  
+✔️ Permite salvar a imagem gerada no formato desejado  
+✔️ Fácil de usar e adaptável a diferentes necessidades  
 
-### 🛠 Tecnologias Utilizadas  
-- Python  
-- Biblioteca `qrcode`  
+## 🛠 Tecnologias Utilizadas  
+- **Python 3**  
+- **Biblioteca qrcode** (`pip install qrcode[pil]`)  
 
-### 📥 Como Usar  
-
-1. Instale a biblioteca necessária (caso ainda não tenha):  
+## 📥 Instalação  
+1. **Clone o repositório:**  
+   ```bash
+   git clone https://github.com/seu-usuario/gerador-qrcode.git
+   ```
+2. **Acesse o diretório do projeto:**  
+   ```bash
+   cd gerador-qrcode
+   ```
+3. **Instale as dependências:**  
    ```bash
    pip install qrcode[pil]
-   ```  
-2. Execute o script Python para gerar o QR Code:  
+   ```
+4. **Execute o script:**  
    ```bash
-   python seu_script.py
-   ```  
-3. O QR Code será salvo com o nome **QRSrAlgodão.jpg**  
+   python gerador_qrcode.py
+   ```
 
-### 📷 Exemplo de QR Code  
-O QR Code gerado neste projeto contém o link:  
-🔗 [senhoralgodao.com.br](https://senhoralgodao.com.br/)  
+## 🎯 Como Usar  
+1. Ao executar o script, insira os dados que deseja codificar no QR Code.  
+2. Digite o nome do arquivo (com extensão `.png`, `.jpg`, etc.) para salvar a imagem gerada.  
+3. O QR Code será criado e salvo no diretório do projeto!  
 
-### 📩 Contato  
-Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato! 🚀
+## 🔄 Plano de Melhorias Futuras  
+- Criar uma interface gráfica para facilitar o uso  
+- Implementar a opção de personalizar cores e estilos do QR Code  
+- Permitir a geração em massa de QR Codes a partir de um arquivo  
+
+## 📜 Licença  
+Este projeto está sob a licença **MIT**. Sinta-se à vontade para contribuir, modificar e utilizar da melhor forma possível!  
+
+**🚀 Desenvolvido por Breno (https://github.com/Berllock)**  
+
